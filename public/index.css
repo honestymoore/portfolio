@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    font-family: 'Bangers', cursive;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px;
+  }
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    background-image: linear-gradient(lightcyan, lightsteelblue);
+    color: rgb(0, 0, 0);
+    padding: 0 8.5%;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.523);
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav img {
+    float: left; 
+}
+
+.title {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-family: 'Comfortaa', cursive;
+    float: left;
+    margin-top: 20%;
+    width: 450px;
+}
+
+.profile {
+    border-radius: 200%;
+    margin-left: 475px;
+    margin-top: 10%;
+}
+
+.me {
+    margin-top: 20%;
+    word-wrap: break-word;
+    word-spacing: 2px;
+    font-size: larger;
+}
+
+.me h2 {
+    color: whitesmoke;
+}
+
+.second {
+    width: 100%;
+    height: 80vh;
+    background-color: lightsteelblue;
+    background-image: linear-gradient(lightsteelblue, lightgreen);
+    color: black;
+    padding: 0 8.5%;
+}
+
+.projects {
+    color: whitesmoke;
+    float: right;
+    font-size: larger;
+}
+
+.projects h2 {
+    padding-top: 175px;
+}
+
+.naruto {
+    float: left;
+    margin-top: 20%;
+}
+
+.naruto a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.cod {
+    float: right;
+    margin-top: 20%;
+}
+
+.cod a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.clown {
+    float: left;
+    margin-top: 20%;
+}
+
+.clown a {
+    text-decoration: none;
+    color: black;
+}
+
+.ribbit {
+    float: right;
+    margin-top: 20%;
+}
+
+.ribbit a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: lightgreen;
+    background-image: linear-gradient(lightgreen, lightsteelblue);
+    width: 100%;
+    height: 20vh;
+    color: whitesmoke;
+    padding: 0 8.5%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    word-spacing: 20%;
+}
+
+.contact h2 {
+    padding-bottom: 20px;
+}
+
+.nav i {
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
